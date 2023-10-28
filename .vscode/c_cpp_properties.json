@@ -1,0 +1,89 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "d:/Coding/OI/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Wno-unused-variable"
+            ],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Coding/OI/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Clang",
+            "includePath": [
+                "d:/Coding/OI/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/clang++.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Wno-unused-variable",
+                "-Wconversion"
+            ],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Coding/OI/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "MSVC",
+            "includePath": [
+                "d:/Coding/OI/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe",
+            "cStandard": "gnu23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerArgs": [
+                "/std:c++latest",
+                "/W4"
+            ],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Coding/OI/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
